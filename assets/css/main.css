@@ -283,6 +283,13 @@ input, select, textarea {
 		}
 
 /* Row */
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+
+
 
 	.row {
 		display: flex;
@@ -1504,6 +1511,7 @@ input, select, textarea {
 						}
 
 		}
+
 
 /* Form */
 

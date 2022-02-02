@@ -32,3 +32,19 @@
 		});
 
 })(jQuery);
+
+function myFunction(name) {
+  var dots = document.getElementById("dots"+name);
+  var moreText = document.getElementById("more"+name);
+  var btnText = document.getElementById("myBtn"+name);
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
